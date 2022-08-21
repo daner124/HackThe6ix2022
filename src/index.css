@@ -47,6 +47,10 @@ code {
   padding-left: 3%;
 }
 
+.pageSubTitle {
+  margin-top: 4%;
+  padding-left: 3%;
+}
 
 .dailyCheckupInputContainer {
   display: flex;
@@ -100,4 +104,33 @@ code {
   height: 40px;
   display: inline-block;
   margin-right: 1%;
+}
+
+.moodArtContainer {
+  background: red;
+  width: 565px;
+  height: 300px;
+  display: block;
+  margin-left: 3%;
+}
+
+.graphContainer {
+  background: blue;
+  width: 565px;
+  height: 300px;
+  display: block;
+  margin-left: 3%;
+}
+
+.articleContainer {
+  background: green;
+  width: 265px;
+  height: 350px;
+  display: block;
+  margin-left: 3%;
+  margin-bottom: 7%;
+}
+
+.predictionGraphContainer {
+  display: flex;
 }
