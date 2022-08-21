@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.activeNav {
+  background-color: #ebcc5b;
+  color: white;
+}
+
+
+.pageTitle {
+  margin-top: 6%;
+  padding-left: 3%;
+}
+
+
+.dailyCheckupInputContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+#checkupInput {
+  width: 50%;
+}
+
+.submitButtonContainer {
+  background-color: #ebcc5b;
+  margin-top: 4%;
+  width: 17%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* position: relative; */
+  color: white;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.submitButtonContainer:hover {
+  background-color: #ddd;
+  color: black;
+}
