@@ -80,3 +80,23 @@ code {
   background-color: #ddd;
   color: black;
 }
+
+.friendActivityContainer {
+  width: 85%;
+  padding-left: 3%;
+}
+
+.friendActivity {
+  border: 1px solid black;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.userReactionImage {
+  border-radius: 50%;
+  background-color: rgb(199, 199, 199);
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 1%;
+}
