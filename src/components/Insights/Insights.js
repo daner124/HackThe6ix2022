@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Insights.module.css';
 
 const Insights = () => (
@@ -16,7 +15,11 @@ const Insights = () => (
       <div className='graphContainer'></div>
     </div>
     <h4 className='pageSubTitle'>Articles</h4>
-    <div className='articleContainer'></div>
+    <div className='articleContainer'>
+      <h3>Tips for Anxiety</h3>
+      <img src='./../../../public/logo192.png' alt='anxiety'/>
+      <p>Anxiety can come at any time, it is important to always be prepared with coping strategies. Click to learn more!</p>
+    </div>
   </div>
 );
 
